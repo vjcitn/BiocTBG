@@ -1,0 +1,3 @@
+# pack-refs with: peeled fully-peeled sorted 
+b3ef998ccfef9927b547be56256711f753730986 refs/remotes/origin/main
+b3ef998ccfef9927b547be56256711f753730986 refs/remotes/origin/vjc_idx_fix_gpu
