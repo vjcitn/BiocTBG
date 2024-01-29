@@ -2,7 +2,7 @@
 % Please edit documentation in R/tbg.R
 \name{tbgR}
 \alias{tbgR}
-\title{basic interface}
+\title{basic interface, shows how to get selected references}
 \usage{
 tbgR()
 }
@@ -10,10 +10,11 @@ tbgR()
 basiliskRun result with import from reticulate, typically a Module
 }
 \description{
-basic interface
+basic interface, shows how to get selected references
 }
 \examples{
-tbg <- tbgR()
-tbg
-names(tbg)
+tbgrefs <- tbgR()
+tbgrefs
+names(tbgconf$config)
+names(tbgconf$train)
 }

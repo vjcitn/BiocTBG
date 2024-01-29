@@ -15,10 +15,10 @@ Description: Interfaces to torchbiggraph with illustrations
 	pinellolab simba system.
 License: Artistic-2.0
 Encoding: UTF-8
-Depends: R (>= 4.1), reticulate, rhdf5, SingleCellExperiment,
+Depends: R (>= 4.3), reticulate, rhdf5, SingleCellExperiment,
 	ggplot2
-Suggests: knitr, testthat, BiocStyle, ggrepel
-Imports: BiocFileCache, scran, basilisk
+Suggests: knitr, testthat, BiocStyle, ggrepel, TENxPBMCData
+Imports: BiocFileCache, scran, basilisk, scater
 VignetteBuilder: knitr
 biocViews: Infrastructure
 RoxygenNote: 7.3.1
